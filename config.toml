@@ -1,0 +1,18 @@
+
+#service specific config
+
+[EPS-BAMASAT]
+bus = "/dev/...cansocket"
+ping_freq = 10
+
+#graphql config
+[EPS-BAMASAT.addr]
+ip = "127.0.0.1"
+port = 1001
+
+# communications service
+[EPS-BAMASAT.comms]
+downlink_ports = [10011]
+timeout = 1
+ip = "0.0.0.0"
+
